@@ -1,0 +1,15 @@
+# Auto normalize line endings
+* text=auto
+# Treat C# scripts as text
+*.cs text
+# Force specific files to use LF
+*.sh text eol=lf
+# Prevent binary files from being changed
+*.png filter=lfs diff=lfs merge=lfs -text
+*.jpg binary
+*.psd filter=lfs diff=lfs merge=lfs -text
+*.fbx filter=lfs diff=lfs merge=lfs -text
+*.mp3 binary
+*.wav filter=lfs diff=lfs merge=lfs -text
+*.dll binary
+*.mp4 filter=lfs diff=lfs merge=lfs -text

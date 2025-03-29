@@ -1,0 +1,34 @@
+# Unity build artifacts
+[Ll]ibrary/
+[Tt]emp/
+[Bb]uild/
+[Bb]uilds/
+[Oo]bj/
+[Mm]emoryCaptures/
+*.log
+
+# IDEs
+.vscode/
+*.csproj
+*.sln
+*.user
+*.unityproj
+
+# OS and general clutter
+.DS_Store
+Thumbs.db
+
+# Auto-generated Unity metadata
+sysinfo.txt
+
+# Crash and analytics
+*.pidb
+*.suo
+
+# Rider project files
+.idea/
+
+# Cache files
+*.apk
+*.aab
+*.dex
